@@ -4,3 +4,4 @@
 [ ! -f "$PYFILE" ] && { echo "Error: Python file '$PYFILE' not found."; exit 1; }
 
 python "$PYFILE"
+
