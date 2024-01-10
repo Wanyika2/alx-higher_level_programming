@@ -2,7 +2,9 @@ def square_matrix_simple(matrix=[]):
     new_matrix = [[x**2 for x in row] for row in matrix]
     return new_matrix
 
+
 if __name__ == "__main__":
+
     matrix = [
         [1, 2, 3],
         [4, 5, 6],
